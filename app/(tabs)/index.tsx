@@ -28,7 +28,7 @@ export default function Home() {
     <SafeAreaView
       style={{ ...styles.container, backgroundColor: theme.colors.background }}
     >
-      <Image source={require("../../assets/images/react-logo.png")} />
+      <Image source={require("../../assets/images/logo-bike.png")} />
       <TextInput
         style={styles.textinput}
         label="Email"
