@@ -91,7 +91,7 @@ export default function SignIn() {
         <>
           <Image
             style={styles.image}
-            source={require("../assets/images/react-logo.png")}
+            source={require("../assets/images/logo-bike.png")}
           />
           <Controller
             control={control}
@@ -172,7 +172,7 @@ export default function SignIn() {
             <Text
               style={{ ...styles.textCadastro, color: theme.colors.tertiary }}
               variant="labelMedium"
-              onPress={() => alert("Ir para tela Cadastro")}
+              onPress={() => router.push("../signUp")}
             >
               {" "}
               Cadastre-se.
